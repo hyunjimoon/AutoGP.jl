@@ -1,6 +1,6 @@
 # Inspecting Online Inference
 
-The goal of this tutorial is to demonstrate [callback functions](https://en.wikipedia.org/wiki/Callback_(computer_programming) for inspecting intermediate results in the sequential Monte Carlo loop of [`AutoGP.fit_smc!`](@ref). These callback functions can be used to inspect how the forecasts evolve as more data is incorporated in the model, obtain runtime versus accuracy profiles, and debug poorly performing inference, among many other use cases.
+The goal of this tutorial is to demonstrate [callback functions](https://en.wikipedia.org/wiki/Callback_(computer_programming)) for inspecting intermediate results in the sequential Monte Carlo loop of [`AutoGP.fit_smc!`](@ref). These callback functions can be used to inspect how the forecasts evolve as more data is incorporated in the model, obtain runtime versus accuracy profiles, and debug poorly performing inference, among many other use cases.
 
 
 ```julia
